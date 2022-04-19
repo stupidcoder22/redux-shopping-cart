@@ -11,9 +11,17 @@ body {
 
 .nav {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  border: 1px solid #000;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.nav .a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00ab66;
 }
 
 img {
@@ -36,7 +44,7 @@ img {
 .btn {
   border: none;
   outline: none;
-  background: #764abc;
+  background: #00ab66;
   padding: 5px 10px;
   color: #fff;
   border-radius: 5px;
@@ -51,6 +59,8 @@ img {
 
 .heading {
   padding: 25px 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 .cartCount {

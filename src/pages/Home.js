@@ -4,9 +4,8 @@ import Products from "../Components/Products";
 const Home = () => {
   return (
     <div>
-      <h2 className="heading">Welcome to redux cart</h2>
+      <h2 className="heading">Aapka Swagat hai 🙏</h2>
       <section>
-        <h3>Products</h3>
         <Products />
       </section>
     </div>
